@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +49,7 @@ while($data=mysqli_fetch_array($query)) {
     $nama = $data['nama_barang'];
     $harga = $data['harga'];
     $satuan = $data['satuan'];
-    $kategori = $data['kategori'];
+    $kat = $data['kategori'];
     $gambar = $data['url_gambar'];
     $stok = $data['stock'];
 }
